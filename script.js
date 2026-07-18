@@ -1,0 +1,1 @@
+function pay(a){document.getElementById("modal").classList.remove("hidden")}function closeM(){document.getElementById("modal").classList.add("hidden")}function copyUpi(){navigator.clipboard.writeText(document.getElementById("upi").textContent);alert("UPI ID copied!")}
